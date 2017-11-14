@@ -11,8 +11,7 @@ ul {
 	background-color: #333399;
 }
 .big {
-	width: 21%;
-	float: left;
+	width: 100%;
 	display: block;
 	color: white;
 	text-align: center;
