@@ -1,7 +1,8 @@
 body{
 	padding: 0;
 	margin: 0;
-	font-family: "Merienda" ,Veranda ;
+	font-family: "Merienda" ,Veranda;
+	color: white;
 }
 .navbar {
 	list-style-type: none;
@@ -18,90 +19,109 @@ body{
 	padding: 14px 16px;
 	text-decoration: none;
 }
-a {
+a{
 	text-decoration: none;
 	color: white;
 }
 li:hover{
 	background-color: #009900;
-	text-shadow: 2px 2px #ff0000;
+	text-shadow: 2px 2px 2px #000000 ;
 }
-.head  {
+.head{
 	text-align:center;
-	text-shadow:2px 2px #ff0000;
+	text-shadow:3px 3px 3px #e60000;
 }
 .box{
-	/*width: 100%;
-	height: 150px;*/
 	border-radius: 20px;
-	padding: 50px;
+	padding: 30px;
 	border: 1px solid green;
 
 }
+.box:hover{
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #009900;
+}
 div h2{
-	text-shadow: 2px 2px #ff0000;
+	text-shadow: 3px 3px 3px #e60000;
 }
 #fb{
+	border-radius: 5px;
 	float: right;
-	height: 38px;
+	height: 63px;
 }
 #fb:hover{
 	border-radius: 5px;
-	box-shadow: 5px 5px 5px #494949;
+	box-shadow: 5px 5px 5px #808080;
 }
 #contactfb{
 	text-align: left; 
-	width: 59%;
-	text-shadow: 2px 2px 2px #ff0000;
+	width: 53%;
+	text-shadow: 3px 3px 3px #e44f1e;
 }
 #insta{
+	border-radius: 19px;
 	float: left;
-	height: 57px;
+	height: 65px;
 }
 #insta:hover{
-	border-radius: 5px;
-	box-shadow: 5px 5px 5px #494949;
+	border-radius: 19px;
+	box-shadow: 5px 5px 5px #808080;
 }
 #contactinsta{
 	text-align: right;
-	text-shadow: 2px 2px 2px #ff0000;
-	margin-left: 42%
-}
-#contactme{
-	height:85px;
+	text-shadow: 3px 3px 3px #e44f1e;
+	margin-left: 48%
 }
 #phone{
+	border-radius: 35px;
 	float: right;
 	height: 70px;
 }
 #phone:hover{
+	
 	border-radius: 35px;
-	box-shadow: 5px 5px 5px #494949;
+	box-shadow: 5px 5px 5px #808080;
 }
 #contactphone{
 	text-align: left;
 	width: 53%;
-	text-shadow: 2px 2px 2px #ff0000;
+	text-shadow: 3px 3px 3px #e44f1e;
 }
 #git{
+	border-radius: 30px;
 	float: left;
 	height: 60px;
 }
 #git:hover{
-	border-radius: 5px;
-	box-shadow: 5px 5px 5px #494949;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px #808080;
 }
 #contactgit{
-	text-shadow: 2px 2px 2px #ff0000;
-	margin-left: 42%;
+	text-shadow: 3px 3px 3px #e44f1e;
+	margin-left: 48%;
 	text-align: right;
 }
 #email{
+	border-radius: 5px;
 	float: right;
-	height: 60px;
+	height: 50px;
+}
+#email:hover{
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #808080;
 }
 #contactemail{
-	text-shadow: 2px 2px 2px #ff0000;
-	width: 50%;
+	text-shadow: 3px 3px 3px #e44f1e;
+	width: 53%;
 	text-align: left;
+}
+#me{
+	border-radius: 150px;
+	border: 5px solid dodgerblue;
+	height: 300px;
+}
+#mediv{
+}
+#wrapper{
+	text-align: center;
 }
