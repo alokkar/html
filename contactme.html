@@ -2,22 +2,27 @@
 <html>
 <head>
 	<link rel="stylesheet" href="mystyle2.css" >
-	<link rel="stylesheet" media="screen and (min-width: 650px)" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" media="screen and (min-width: 800px)" type="text/css" href="mystyle.css">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merienda">
 	<title>Contact Me</title>
 </head>
 <body>
-	<ul>
-		<li class="big"><a href="me.html">Home</a></li>
-		<li class="big"><a href="abtme.html">About Me</a></li>
-		<li class="big"><a href="hobbies.html">Hobbies</a></li>
-		<li class="big"><a href="contactme.html">Contact Me</a></li>
+	<ul class="navbar">
+		<a href="me.html"><li class="big">Home</li></a>
+		<a href="abtme.html"><li class="big">About Me</li></a>
+		<a href="hobbies.html"><li class="big">Hobbies</li></a>
+		<a href="contactme.html"><li class="big">Contact Me</li></a>
 	</ul>
-	<h1>Conact Me!</h1>
+	<h1 class="head"><img class="contactme" src="contactme.png" alt="Contact Me"></h1>
 	<div class="box">
-	<h2 style="text-align:left;">Facebook</h2>
-	<h2 style="text-align:right;">Instagram</h2>
-	<h2 style="text-align:left;">Phone</h2>
-	<h2 style="text-align:right;">Github</h2></div>
+	<h1 id="contactfb">Facebook<a href="https://www.facebook.com/alokkumarkar"  target="blank"><img id="fb" src="fb.png"></a></h1><br>
+	<h1 id="contactinsta"><a href="https://www.instagram.com/alok_1717/" target="blank"><img id="insta" src="insta2.jpg"></a>Instagram</h1>
+	<br>
+	<h1 id="contactphone">Phone<img onclick='window.alert("+919660254145");' id="phone" src="phone.png"></h1>
+	<br>
+	<h1 id="contactgit"><a href="https://github.com/alokkar" target="blank"><img id="git" src="git2.png"></a>Github</h1>
+	<br>
+	<h1 id="contactemail"><img onclick='window.alert("alokkumarkar@rocketmail.com");' id="email" src="email.png">Email</h1>
+	</div>
 </body>
 </html>

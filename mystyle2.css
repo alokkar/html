@@ -3,7 +3,7 @@ body{
 	margin: 0;
 	font-family: "Merienda" ,Veranda ;
 }
-ul {
+.navbar {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -18,14 +18,15 @@ ul {
 	padding: 14px 16px;
 	text-decoration: none;
 }
-li a{
+a {
 	text-decoration: none;
 	color: white;
 }
 li:hover{
 	background-color: #009900;
+	text-shadow: 2px 2px #ff0000;
 }
-h1,h2{
+.head  {
 	text-align:center;
 	text-shadow:2px 2px #ff0000;
 }
@@ -37,6 +38,70 @@ h1,h2{
 	border: 1px solid green;
 
 }
-div h3{
+div h2{
 	text-shadow: 2px 2px #ff0000;
+}
+#fb{
+	float: right;
+	height: 38px;
+}
+#fb:hover{
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #494949;
+}
+#contactfb{
+	text-align: left; 
+	width: 59%;
+	text-shadow: 2px 2px 2px #ff0000;
+}
+#insta{
+	float: left;
+	height: 57px;
+}
+#insta:hover{
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #494949;
+}
+#contactinsta{
+	text-align: right;
+	text-shadow: 2px 2px 2px #ff0000;
+	margin-left: 42%
+}
+#contactme{
+	height:85px;
+}
+#phone{
+	float: right;
+	height: 70px;
+}
+#phone:hover{
+	border-radius: 35px;
+	box-shadow: 5px 5px 5px #494949;
+}
+#contactphone{
+	text-align: left;
+	width: 53%;
+	text-shadow: 2px 2px 2px #ff0000;
+}
+#git{
+	float: left;
+	height: 60px;
+}
+#git:hover{
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #494949;
+}
+#contactgit{
+	text-shadow: 2px 2px 2px #ff0000;
+	margin-left: 42%;
+	text-align: right;
+}
+#email{
+	float: right;
+	height: 60px;
+}
+#contactemail{
+	text-shadow: 2px 2px 2px #ff0000;
+	width: 50%;
+	text-align: left;
 }
