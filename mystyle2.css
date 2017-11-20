@@ -32,6 +32,8 @@ li:hover{
 	text-shadow:3px 3px 3px #e60000;
 }
 .box{
+	width: 94%;
+	margin: auto;
 	border-radius: 20px;
 	padding: 30px;
 	border: 1px solid green;
@@ -124,4 +126,11 @@ div h2{
 }
 #wrapper{
 	text-align: center;
+}
+.mnf{
+	width: 49%;
+}
+.headpic{
+	text-align: center;
+	text-shadow: 3px 3px 3px #e44f1e;
 }
